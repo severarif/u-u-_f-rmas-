@@ -1,0 +1,24 @@
+hr{
+    display: inline-block;
+    width: 80px;
+  height: 3px;
+  border-radius: 1px;
+ 
+}
+#hr1{
+    background-color: rgb(16, 16, 156);
+    margin-right: 0;
+    padding-right: 0;
+}
+#hr2{
+    background-color: aqua;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#hr3{
+    background-color: rgb(243, 56, 243);
+    margin-left: 0;
+    padding-left: 0;
+}
