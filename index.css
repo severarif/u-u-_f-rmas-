@@ -1,24 +1,81 @@
-hr{
-    display: inline-block;
-    width: 80px;
+hr {
+  display: inline-block;
+  width: 80px;
   height: 3px;
   border-radius: 1px;
- 
 }
-#hr1{
-    background-color: rgb(16, 16, 156);
-    margin-right: 0;
-    padding-right: 0;
+#hr1 {
+  background-color: rgb(16, 16, 156);
+  margin-right: 0;
+  padding-right: 0;
 }
-#hr2{
-    background-color: aqua;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
+#hr2 {
+  background-color: aqua;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
-#hr3{
-    background-color: rgb(243, 56, 243);
-    margin-left: 0;
-    padding-left: 0;
+#hr3 {
+  background-color: rgb(243, 56, 243);
+  margin-left: 0;
+  padding-left: 0;
+}
+#nav1 {
+  background-color: #150746;
+}
+#nav1 li,
+#nav2 li {
+  margin: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+#nav1 li a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  height: 1.5rem;
+}
+#nav1 li:hover a {
+  color: cadetblue;
+}
+#nav2 {
+  height: 100px;
+  /* border: 1px solid red; */
+}
+#nav2 li a {
+  text-decoration: none;
+}
+#nav2 img {
+  height: 80px;
+  float: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 15px 100px;
+}
+#nav2 li {
+  padding-top: 40px;
+  color: black;
+}
+.container {
+  margin: 50px auto;
+  height: 500px;
+  border: 1px solid red;
+  background-image: linear-gradient(rgb(212, 14, 14), black);
+}
+.secleft,
+.secleft h1 {
+  /* border: 1px solid blue; */
+  box-sizing: border-box;
+  background-color: grey;
+  display: inline-block;
+}
+
+.secright {
+  /* border: 1px solid blue; */
+  background-color: white;
+  opacity: 50;
+  float: right;
 }
