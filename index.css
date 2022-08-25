@@ -71,7 +71,12 @@ hr {
   padding-left: 0;
 }
 #nav1 {
+  display: flex;
+  height: 100px;
   background-color: #150746;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
 #nav1 li,
 #nav2 li {
@@ -161,7 +166,7 @@ hr {
 }
 
 .form {
-  margin: 16px;
+  margin: 15px;
   display: inline-block;
   height: 30px;
   font-weight: bolder;
@@ -242,4 +247,41 @@ hr {
 
 .sınıf:hover .sınıfbtn {
   background-color: #068587;
+}
+
+.list {
+  margin: 20px;
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+  border: 1px solid #c5cfcf;
+  border-radius: 5px;
+}
+.image {
+  width: 30%;
+  float: left;
+  display: inline-block;
+}
+.text {
+  margin-right: 30px;
+  width: 30%;
+  float: right;
+  display: inline-block;
+}
+.flex-container {
+  justify-content: space-around;
+  align-content: space-around;
+  display: flex;
+  gap: 20px 30px;
+  flex-wrap: wrap;
+}
+.metin {
+  margin: 100px auto;
+  word-spacing: 8px;
+  background-color: #150746;
+  color: white;
+  padding: 80px;
+}
+.text {
+  font-size: 20px;
 }
