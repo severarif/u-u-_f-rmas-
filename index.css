@@ -80,6 +80,7 @@ hr {
 }
 #nav1 li,
 #nav2 li {
+  font-weight: bolder;
   margin: 5px 10px;
   text-align: center;
   display: inline-block;
@@ -276,7 +277,7 @@ hr {
   flex-wrap: wrap;
 }
 .metin {
-  margin: 100px auto;
+  margin: 70px auto;
   word-spacing: 8px;
   background-color: #150746;
   color: white;
@@ -284,4 +285,21 @@ hr {
 }
 .text {
   font-size: 20px;
+}
+.finish {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.finish a {
+  color: darkcyan;
+  text-decoration: none;
+}
+.finish li {
+  list-style-type: none;
+}
+.finish a:hover {
+  text-decoration: underline;
+  color: #150746;
 }
